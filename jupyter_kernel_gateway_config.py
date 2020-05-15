@@ -14,3 +14,5 @@ c.KernelGatewayApp.ip = '0.0.0.0'
 ## Runs the notebook (.ipynb) at the given URI on every kernel launched. No seed
 #  by default. (KG_SEED_URI env var)
 c.KernelGatewayApp.seed_uri = "/srv/notebooks/metrics_api.ipynb"
+
+c.KernelGatewayApp.port = "9001"
