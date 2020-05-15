@@ -15,4 +15,4 @@ c.KernelGatewayApp.ip = '0.0.0.0'
 #  by default. (KG_SEED_URI env var)
 c.KernelGatewayApp.seed_uri = "/srv/notebooks/metrics_api.ipynb"
 
-c.KernelGatewayApp.port = "9001"
+c.KernelGatewayApp.port = 9001
