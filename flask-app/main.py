@@ -8,12 +8,15 @@ def home():
 
 
 @app.route('/double/<number>')
-def home(number):
+def double(number):
     try:
-        return int(number) * 2
+        return "{}".format(int(number) * 2)
     except:
         return "Not a Number: {}".format(number)
 
 
+@app.route('/biblio/<id>')
+def bib_lookup(id):
+    return "?"
 
 app.run(port=5030)

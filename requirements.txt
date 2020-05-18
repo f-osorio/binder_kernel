@@ -1,3 +1,4 @@
 jupyter_kernel_gateway
 mysql-connector-python
 jupyter-server-proxy
+flask-mysql

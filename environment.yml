@@ -1,6 +1,11 @@
+name: flask
 channels:
-    - conda-forge
+  - defaults
+  - conda-forge
 dependencies:
+  - postgresql
+  - psycopg2
   - python=3.6.8
   - jupyter-server-proxy
   - flask
+  - Flask-SQLAlchemy
